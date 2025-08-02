@@ -1,3 +1,5 @@
+package _1_Variables;
+
 import java.util.Scanner;
 
 public class Main {
