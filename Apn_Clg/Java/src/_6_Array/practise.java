@@ -12,6 +12,8 @@ public class practise{
 		// 2 Check if Array is in Ascending Order or not
 
 
+		// Search for an element in Array
+
 	}
 }
 
