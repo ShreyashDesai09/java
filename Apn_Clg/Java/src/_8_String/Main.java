@@ -2,6 +2,8 @@ package _8_String;
 
 import java.util.*;
 
+// Strings are Immutable: Cannot change or modify
+
 public class Main {
     public static void main(String[] args) {
 
@@ -28,5 +30,25 @@ public class Main {
         System.out.print("\n");
 
 
+        //Compare
+        System.out.print("\n");
+        String one = "abcd";
+        String two = "efgh";
+        if(one.compareTo(two) == 0){
+            System.out.println("Strings Are Equal");
+        } else {
+            System.out.println("Strings Are Not Equal");
+        }
+
+        //Substring
+        System.out.print("\n");
+        String sentence = "My name is Shreyash";
+        String sub = sentence.substring(11);
+        String sub2 = sentence.substring(11,sentence.length());
+        String sub3 = sentence.substring(0,10);
+
+        System.out.println(sub);
+        System.out.println(sub2);
+        System.out.println(sub3);
     }
 }
