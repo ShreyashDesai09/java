@@ -41,5 +41,20 @@ public class Main{
         System.out.println("\nSELECTION SORT");
         printArray(x);
 
+
+        //Insertion Sort
+        int w[] = {2,65,1,7,45,99};
+        for ( int i = 1 ; i < w.length ; i++){
+            int curr = w[i];
+            int j = i - 1;
+            while( j >= 0 && curr < arr[j] ){
+                w[j+1] = w[j];
+                j--;
+            }
+            w[j+1] = curr;
+        }
+
+        System.out.println("\nInsertion Sort\n");
+        printArray(w);
     }
 }
