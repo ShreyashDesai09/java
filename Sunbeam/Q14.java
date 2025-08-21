@@ -17,7 +17,7 @@ public class Q14{
             if(word.charAt(i)== word.charAt(word.length()-i-1)){
                 count++;
             } else {
-                System.out.print("No Pallindrom");
+                System.out.print("No Palllsindrom");
                 return;
             }
         }
